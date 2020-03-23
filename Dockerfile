@@ -3,8 +3,8 @@ ARG USE_MIRROR
 ARG alpine_packages="python3 py3-numpy py3-scipy py3-scikit-learn py3-pandas py3-requests py3-pillow"
         #curl ca-certificates python3 py3-numpy py3-numpy-f2py \
         #freetype jpeg libpng libstdc++ libgomp graphviz font-noto \
-        #libgomp is openmp implementation TODO: check if it is already installed"
-ARG alpine_deps="make automake gcc g++"
+        #libgomp is the dependencies required by gcc/g++ so no need to install
+ARG alpine_deps="make automake g++"
 ARG python_packages
 #pillow depends on cffi
 #ARG python_packages="pyyaml pymkl cffi requests pillow"
