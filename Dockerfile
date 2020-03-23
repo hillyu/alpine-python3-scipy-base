@@ -1,6 +1,6 @@
 FROM alpine:latest
 ARG USE_MIRROR
-ARG alpine_packages="python3 py3-numpy py3-scipy py3-scikit-learn py3-pandas py3-requests py3-pillow"
+ARG alpine_packages="python3 py3-numpy py3-scipy py3-scikit-learn py3-pandas py3-requests py3-pillow py3-yaml"
         #curl ca-certificates python3 py3-numpy py3-numpy-f2py \
         #freetype jpeg libpng libstdc++ libgomp graphviz font-noto \
         #libgomp is the dependencies required by gcc/g++ so no need to install
